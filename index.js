@@ -18,13 +18,3 @@ app.listen(app.get('port'), function() {
 });
 
 
-(function() {
-    var cx = '011386288940278185258:eem9a9dhjki';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
